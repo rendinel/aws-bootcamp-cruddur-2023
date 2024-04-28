@@ -1,1 +1,1 @@
-docker/**/*
+docker/dynamodb/shared-local-instance.db
