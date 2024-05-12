@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta, timezone
 class UserActivities:
+  with xray_recorder.in_segment_async('home_activities') as segment:
   def run(user_handle):
     model = {
       'errors': None,
